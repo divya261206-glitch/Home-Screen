@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body style="background-color: powderblue;">
+<h1 style="text-align: center;"> <center> RESPONSIVE CARDS CSS </center></h1>
+<div class ="container">
+<div>
+    <i class="fa-brands fa-amazon"></i>
+    <center><b>AMAZON</b></center>
+    <p style="text-align:left;"> Amazon is an online shopping platform where you can buy almost anything. It is known for fast delivery and a wide range of products </p>
+    <a href="https://www.amazon.in" target="_blank">
+    <button class="testbtn first-btn">Read More</button>
+    </a>
+</div>
+<div id="div1">
+    <i class="fa-brands fa-linkedin"></i>
+    <center><b>LINKEDIN</b></center>
+    <p style="text-align:start;">LinkedIn is a professional networking platform where people connect for career opportunities. It helps users build profiles, find jobs, and share industry-related content. </p>
+    <a href="https://www.linkedin.com" target="_blank">
+    <button class="testbtn">Read More</button>
+    </a>
+</div>
+<div id="div2">
+    <i class="fa-brands fa-square-whatsapp"></i>
+    <center><b>WHATSAPP</b></center>
+    <p style="text-align:start;">WhatsApp is a messaging app used to chat, call, and share media. It is simple, fast, and widely used for personal and business communication. </p>
+    <a href="https://www.whatsapp.com" target="_blank">
+    <button class="testbtn">Read More</button>
+    </a>
+</div>
+</div>
+<style>
+.testbtn {
+  background-color:green;
+  color: azure;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.first-btn {
+  margin-top: 10px;   
+}
+
+
+.testbtn:hover {
+  background-color: lightcoral;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color:peachpuff ;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+.container div
+{ 
+  border-radius: 25px;
+  border: 3.5px solid #0c0c0c;
+  padding: 30px; 
+  width: 300px;
+  height: 350; 
+  margin: 20px; 
+  text-align: center;
+}
+.container div1
+{
+  border-radius: 25px;
+  border: 3.5px solid #0c0c0c;
+  padding: 30px; 
+  width: 300px;
+  height: auto;  
+  margin: 20px;
+}
+.container div2
+{
+  border-radius: 25px;
+   border: 3.5px solid #0c0c0c;
+  padding: 30px; 
+  width: 300px;
+  height: auto;  
+  margin: 20px;
+}
+.icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.fa-amazon
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fa-linkedin
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #0A66C2;
+}
+.fa-square-whatsapp
+{
+    
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #25D366;
+}
+</style>
+</body>
+</html>
